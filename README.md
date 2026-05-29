@@ -2,9 +2,9 @@
 
 A framework for training LLM agents via RL (SDPO, GRPO) on **any task improvement loop**. Define a task as a YAML config — what file to edit, how to run experiments, how to score results — and the framework handles rollout generation, experiment dispatch, reward computation, and policy updates.
 
-Built on a [fork of VERL](https://github.com/SilenNaihin/SDPO) that supports [Self-Distillation Policy Optimization (SDPO)](https://self-distillation.github.io/SDPO.html), GRPO, and other RL algorithms.
+Built on a [fork of VERL](https://github.com/resolutelabsai/autoresearch-distillation/tree/main/SDPO) that supports [Self-Distillation Policy Optimization (SDPO)](https://self-distillation.github.io/SDPO.html), GRPO, and other RL algorithms.
 
-**[Project Page](https://silennaihin.github.io/autoresearch-distillation/)** | **[W&B (SDPO)](https://wandb.ai/silennai-endflow/autoresearch-sdpo)** | **[W&B (Baselines)](https://wandb.ai/silennai-endflow/autoresearch-baseline)**
+**[Project Page](https://resolutelabsai.github.io/autoresearch-distillation/)** | **[W&B (SDPO)](https://wandb.ai/silennai-endflow/autoresearch-sdpo)** | **[W&B (Baselines)](https://wandb.ai/silennai-endflow/autoresearch-baseline)**
 
 ## How It Works
 
@@ -251,7 +251,7 @@ python loop_baseline.py --max-turns 50 --mode agent --single-turn --run-name qwe
   title   = {RL Training for LLM Agents on Live Task Improvement Loops},
   author  = {Naihin, Silen and Fallah, Kion},
   year    = {2026},
-  url     = {https://github.com/SilenNaihin/autoresearch-distillation}
+  url     = {https://github.com/resolutelabsai/autoresearch-distillation}
 }
 ```
 
